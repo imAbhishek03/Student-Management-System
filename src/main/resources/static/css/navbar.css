@@ -1,0 +1,61 @@
+/* src/main/resources/static/css/studentStyle.css */
+
+/* Global Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    background: linear-gradient(135deg, #007bff, #0056b3); /* Gradient Background */
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #f8f9fa;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: #fff !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffdd57 !important;
+    transform: scale(1.05);
+}
+
+/* Mobile Navbar */
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    background: #0056b3;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #fff !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background: #ffdd57;
+    color: #000 !important;
+}

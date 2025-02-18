@@ -1,0 +1,61 @@
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #0056b3, #003f7f);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+/* Features Section */
+.features .feature-card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.features .feature-card:hover {
+    transform: scale(1.05);
+}
+
+.features .feature-card i {
+    color: #0056b3;
+}
+
+/* How It Works Section */
+.how-it-works .step-card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.how-it-works .step-card:hover {
+    transform: scale(1.05);
+}
+
+.how-it-works .step-card i {
+    color: #28a745;
+}
+
+/* Call-to-Action Section */
+.cta {
+    background: #003f7f;
+    color: white;
+}
+
+.cta h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+}

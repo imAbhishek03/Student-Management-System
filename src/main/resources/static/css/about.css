@@ -1,0 +1,46 @@
+/* General Page Styling */
+.page-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+/* Mission & Vision Cards */
+.mission-card, .vision-card {
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mission-card {
+    background: linear-gradient(135deg, #d9e9ff, #b3d4ff);
+}
+
+.vision-card {
+    background: linear-gradient(135deg, #dfffd6, #b3ffb3);
+}
+
+/* Developer Profile Section */
+.developer-img {
+    width: 120px;
+    height: 120px;
+    border: 4px solid #ddd;
+    transition: transform 0.3s ease-in-out;
+}
+
+.developer-img:hover {
+    transform: scale(1.1);
+}
+
+.bio-text {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+    color: #333;
+}

@@ -1,0 +1,90 @@
+/* Form Container */
+.container {
+    margin-top: 80px;
+    padding-bottom: 40px;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background: #fff;
+}
+
+/* Card Header */
+.card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px;
+    border-bottom: none;
+    background: linear-gradient(135deg, #0056b3, #003f7f); /* Royal Blue Gradient */
+}
+
+/* Input Fields */
+.form-control {
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #ccc;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+/* Labels */
+.form-label {
+    font-weight: 600;
+    color: #333;
+    font-size: 1rem;
+}
+
+/* Buttons */
+.btn {
+    font-size: 1rem;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #28a745, #218838);
+    border: none;
+}
+
+.btn-success:hover {
+    background: linear-gradient(135deg, #218838, #19692c);
+}
+
+.btn-outline-secondary {
+    border: 2px solid #6c757d;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-secondary:hover {
+    background: #6c757d;
+    color: white;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 60px;
+        padding-bottom: 20px;
+    }
+    .card-header {
+        font-size: 1.3rem;
+        padding: 15px;
+    }
+    .form-control {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+    .btn {
+        font-size: 0.9rem;
+        padding: 10px 16px;
+    }
+}

@@ -1,0 +1,132 @@
+/* General Styling */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Page Heading */
+.page-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    background: linear-gradient(135deg, #0056b3, #003f7f); /* Royal Blue Gradient */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Custom Button */
+.btn-custom {
+    background: linear-gradient(135deg, #17a2b8, #117a8b);
+    color: white;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    border: none;
+}
+.btn-custom:hover {
+    background: linear-gradient(135deg, #117a8b, #0e5a6f);
+}
+
+/* Table Styling */
+/* Table Styling */
+.custom-table {
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    border: 1px solid #ddd;
+}
+
+/* Table */
+.table {
+    width: 100%;
+    border-collapse: collapse; /* Ensure proper row separation */
+}
+
+/* Table Header */
+.table thead {
+    background: linear-gradient(135deg, #0056b3, #003f7f);
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.table thead th {
+    padding: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Table Rows */
+.table tbody tr {
+    transition: all 0.3s ease-in-out;
+    border-bottom: 1px solid #ddd; /* Thin separator line */
+}
+
+/* Add spacing between rows */
+.table tbody tr td {
+    padding: 14px;
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+    border-bottom: 1px solid #e0e0e0; /* Lighter separator between rows */
+}
+
+/* Alternate Row Styling */
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Row Hover Effect */
+.table tbody tr:hover {
+    background-color: #e3f2fd;
+    transform: scale(1.01);
+    transition: all 0.2s ease-in-out;
+}
+
+/* Action Buttons Styling */
+.table tbody td .btn {
+    padding: 8px 14px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Update Button */
+.btn-primary {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border: none;
+}
+.btn-primary:hover {
+    background: linear-gradient(135deg, #0056b3, #004080);
+    transform: scale(1.05);
+}
+
+/* Delete Button */
+.btn-danger {
+    background: linear-gradient(135deg, #dc3545, #a71d2a);
+    border: none;
+}
+.btn-danger:hover {
+    background: linear-gradient(135deg, #a71d2a, #800015);
+    transform: scale(1.05);
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+    .table thead {
+        font-size: 1rem;
+    }
+    .table tbody td {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
+
+
+
+
